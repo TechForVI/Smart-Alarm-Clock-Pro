@@ -56,7 +56,7 @@ local DESTINATION_FOLDER = Environment.getExternalStorageDirectory().getPath() .
 
 -- Auto Update Variables
 local CURRENT_VERSION = "1.1"
-local GITHUB_RAW_URL = "https://raw.githubusercontent.com/TechForVI/Smart-Alarm-Clock-Pr/main/"
+local GITHUB_RAW_URL = "https://raw.githubusercontent.com/TechForVI/Smart-Alarm-Clock-Pro/main/"
 local VERSION_URL = GITHUB_RAW_URL .. "version.txt"
 local SCRIPT_URL = GITHUB_RAW_URL .. "main.lua"
 local PLUGIN_PATH = "/sdcard/解说/Plugins/Smart Alarm Clock Pr/main.lua"
@@ -3594,4 +3594,4 @@ function showMainDialog()
  testAlarmButton.setFocusable(true)
  mainLayout.addView(testAlarmButton)
 
-local checkUpdateButton = Button(service) if updateAvailable then   checkUpdateButton.setText("New Update Available") else   checkUpdateButton.setText("Check Update") end checkUpdateButton.setTextSize(16) checkUpdateButton.setPadding(0, 0, 0, 10) checkUpdateButton.setFocusable(true) check
+local checkUpdateButton = Button(service) if updateAvailable then   checkUpdateButton.setText("New Update Available") else   checkUpdateButton.setText("Check Update") end checkUpdateButton.setTextSize(16) checkUpdateButton.setPadding(0, 0, 0, 10) checkUpdateButton.setFocusable(true) c
